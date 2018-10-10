@@ -13,6 +13,22 @@ body{
     background: #f5f5f5;
     font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
 }
+@media screen and (max-width: 1260px){
+    .activity-bg .fight{
+        width: 982px;
+        margin: 0 auto;
+    }
+    .activity-bg .fight .left{
+        display: none;
+    }
+    .activity-bg .imgs{
+        width: 982px;
+        margin:0 auto;
+    }
+    .activity-bg .imgs .bottom .qiu{
+        display: none;
+    }
+}
 .site-nav{
     width: 100%;
     height: 32px;
@@ -665,9 +681,37 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
 }
 .activity-bg{
     width: 100%;
-    /* height: 5841px; */
     height: auto;
     background: #F5F5F5;
+}
+.activity-bg .imgs{
+    width: 1230px;
+    height: 329px;
+    padding-top: 30px;
+    margin:0 auto;
+    padding-bottom: 5px;
+    background:#F5F5F5;
+}
+.activity-bg .imgs .top{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.activity-bg .imgs .bottom{
+    width: 100%;
+    height:269px;
+    display: flex;
+    justify-content: space-between;
+}
+.activity-bg .imgs .bottom img{
+    width: 238px;
+    height: 269px;
+}
+.activity-bg .imgs .top img{
+    width: 600px;
+    height: 40px;
 }
 .activity-bg .fight{
     width: 1230px;
@@ -781,6 +825,9 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
     margin-bottom: 1px;
     float: left;
     position: relative;
+    background: #fff;
+    display: flex;
+    align-items: center;
 }
 .brand-list .brand-item .brand-img{
     margin: 0 auto;
@@ -1181,16 +1228,16 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
     margin: 10px auto;
 }
 .ad1{
-    margin-top: 10px;
     width: 1230px;
     overflow: hidden;
     margin: 0 auto;
     position: relative;
     padding-right: 30px;
+    padding-top: 15px;
 }
 .ad1 img{
     width: 1230px;
-    height: auto;
+    height: 90px;
     
 }
 .floor-con .floor-name{
