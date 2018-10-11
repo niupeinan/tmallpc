@@ -688,7 +688,8 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
     width: 1230px;
     height: 329px;
     padding-top: 30px;
-    margin:0 auto;
+    margin: auto;
+    padding-right: 30px;
     padding-bottom: 5px;
     background:#F5F5F5;
 }
